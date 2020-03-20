@@ -24,7 +24,7 @@ func main() {
       log.Println(err)
   }
   params := &twitter.FriendListParams{
-		ScreenName:          "yonema",
+		ScreenName:          "TARGET_SCREEN_NAME",
 		Count:               200,
 		Cursor:              -1,
 	}
